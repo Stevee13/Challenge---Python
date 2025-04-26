@@ -1,3 +1,2 @@
-Pedro Estevam Coelho,Fisioterapia,13/06/2005
-
-Arthur Souza,Fisoterapia,15Pedro Estevam Coelho,Fisioterapia,13/06/2005Arthur Souza,Urologista,15/03/2005
+Arthur,Urologista,99/99/9999
+Pedro,Fisioterapia,99/99/9999

@@ -31,7 +31,7 @@ def agendar_consulta():
     with open("pacientes.txt", "a") as f:
         f.write(f"{nome},{idade},{sexo},{cpf},{telefone}\n")
     with open("consulta.txt", "a") as f:
-        f.write(f"{nome},{especialidade},{data}")
+        f.write(f"{nome},{especialidade},{data}\n")
     os.system('cls' if os.name == 'nt' else 'clear')#(debug no linux :P )
 
     print("\nRegistro de Consulta Recebido")
@@ -50,11 +50,13 @@ def agendar_consulta():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def exames():
+    os.system('cls' if os.name == 'nt' else 'clear')
     nome = input("Qual seu nome? ")
 
     if os.path.exists("consulta.txt"):
-        with open("consulta.txt","r") as f:
+        with open("consulta.txt", "r") as f:
             exames = [linha.strip() for linha in f if linha.startswith(nome)]
+
         if exames:
             print("\nExames encontrados: ")
             for i in exames:
@@ -62,7 +64,8 @@ def exames():
                 time.sleep(2)
         else:
             os.system('cls' if os.name == 'nt' else 'clear')
-            print("Nenhum exame econtrado.")
+            print("Nenhum exame encontrado.")
+            time.sleep(2)
     else:
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Arquivo de exames não encontrado.")
