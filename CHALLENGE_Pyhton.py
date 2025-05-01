@@ -18,6 +18,7 @@ def menu_principal():
     """)
 
 def agendar_consulta():
+
     msg = "\nVerificando Disponibilidade"
 
     nome = input("Nome do paciente: ")
@@ -52,11 +53,10 @@ def agendar_consulta():
 def exames():
     os.system('cls' if os.name == 'nt' else 'clear')
     nome = input("Qual seu nome? ")
-
+    
     if os.path.exists("consulta.txt"):
         with open("consulta.txt", "r") as f:
             exames = [linha.strip() for linha in f if linha.startswith(nome)]
-
         if exames:
             print("\nExames encontrados: ")
             for i in exames:
