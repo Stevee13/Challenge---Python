@@ -25,6 +25,9 @@
 ## Diagrama de Funcionamento
 ![image](https://github.com/user-attachments/assets/1c5023aa-52fd-4f75-92c7-4a4c6d90008b)
 
+## Video Explicativo
+https://youtu.be/6VLedHO2m2I?feature=shared
+
 ## Requisitos
 
 - Python 3.x
