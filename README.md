@@ -32,3 +32,9 @@
 1. Certifique-se de ter o Python instalado.
 2. Clone ou baixe o repositório com o código-fonte.
 3. Execute o script principal.
+
+4. ## Integrantes
+5. Pedro Estevam - RM 560642
+6. Arthur Gomes - RM 560771
+7. Luiz Gustavo - RM 560110
+8. Matheus Siroma - RM 560248
