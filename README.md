@@ -31,5 +31,4 @@
 
 1. Certifique-se de ter o Python instalado.
 2. Clone ou baixe o repositório com o código-fonte.
-3. Execute o script principal:
-python nome_do_arquivo.py
+3. Execute o script principal.
