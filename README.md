@@ -22,6 +22,9 @@
 - `pacientes.txt`: Armazena dados pessoais dos pacientes (nome, idade, sexo, CPF, telefone).
 - `consulta.txt`: Armazena os agendamentos realizados (nome do paciente, especialidade, data).
 
+## Diagrama de Funcionamento
+![image](https://github.com/user-attachments/assets/1c5023aa-52fd-4f75-92c7-4a4c6d90008b)
+
 ## Requisitos
 
 - Python 3.x
