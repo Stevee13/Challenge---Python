@@ -1,4 +1,4 @@
-# Challenge---Python
+# Challenge Hospiral Sabará
 # TotemAI - Hospital Sabará
 
 **TotemAI** é um sistema interativo de atendimento automatizado desenvolvido para auxiliar pacientes no Hospital Sabará.
