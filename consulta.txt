@@ -1,2 +1,0 @@
-Arthur,Urologista,99/99/9999
-Pedro,Fisioterapia,99/99/9999

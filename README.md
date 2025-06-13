@@ -28,7 +28,6 @@ O sistema implementa validações para garantir a consistência dos dados inseri
 - Idade: apenas números.
 - CPF: exatamente 11 dígitos numéricos.
 - Telefone: 10 ou 11 dígitos numéricos (com DDD).
-- Data: formato obrigatório `DD/MM/AAAA`.
 
 ## Estrutura dos Arquivos
 

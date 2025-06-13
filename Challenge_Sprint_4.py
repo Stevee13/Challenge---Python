@@ -50,17 +50,6 @@ def validar_telefone():
         os.system('cls' if os.name == 'nt' else 'clear')
         print("Telefone inválido. Deve conter 10 ou 11 dígitos.")
 
-def validar_data():
-    while True:
-        data = input("Digite a data da consulta (DD/MM/AAAA): ")
-        partes = data.split("/")
-        if len(partes) == 3 and all(p.isdigit() for p in partes):
-            d, m, a = partes
-            if len(d) == 2 and len(m) == 2 and len(a) == 4:
-                return data
-        os.system('cls' if os.name == 'nt' else 'clear')
-        print("Formato de data inválido. Use DD/MM/AAAA.")
-
 def validar_texto(msg):
     while True:
         texto = input(msg).strip()
