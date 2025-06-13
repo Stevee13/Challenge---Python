@@ -66,7 +66,7 @@ def agendar_consulta():
     sexo = validar_texto("Sexo do paciente: ")
     cpf = validar_cpf()
     especialidade = validar_texto("Digite a especialidade desejada: ")
-    data = validar_data()
+    data = input("Digite a data desejada: ")
     telefone = validar_telefone()
 
     try:
