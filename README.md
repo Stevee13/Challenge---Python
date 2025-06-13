@@ -1,4 +1,4 @@
-# Challenge Hospiral Sabará
+# Challenge Hospital Sabará
 # TotemAI - Hospital Sabará
 
 **TotemAI** é um sistema interativo de atendimento automatizado desenvolvido para auxiliar pacientes no Hospital Sabará.
@@ -14,19 +14,29 @@
 - **Informações do Paciente**  
   Exibe os dados pessoais do paciente cadastrados previamente no sistema, acessando o arquivo `pacientes.txt`.
 
+- **Cancelar Consulta**  
+  Permite cancelar uma consulta agendada informando o nome do paciente. Remove o registro correspondente do arquivo `consulta.txt`.
+
 - **Sair**  
   Encerra o sistema com uma animação de despedida.
 
+## Validação de Dados
+
+O sistema implementa validações para garantir a consistência dos dados inseridos:
+
+- Nome, sexo e especialidade: apenas letras e espaços.
+- Idade: apenas números.
+- CPF: exatamente 11 dígitos numéricos.
+- Telefone: 10 ou 11 dígitos numéricos (com DDD).
+- Data: formato obrigatório `DD/MM/AAAA`.
+
 ## Estrutura dos Arquivos
 
-- `pacientes.txt`: Armazena dados pessoais dos pacientes (nome, idade, sexo, CPF, telefone).
-- `consulta.txt`: Armazena os agendamentos realizados (nome do paciente, especialidade, data).
+- `pacientes.txt`: Armazena dados pessoais dos pacientes no formato:  
+  `nome,idade,sexo,cpf,telefone`
 
-## Diagrama de Funcionamento
-![image](https://github.com/user-attachments/assets/1c5023aa-52fd-4f75-92c7-4a4c6d90008b)
-
-## Video Explicativo
-https://youtu.be/6VLedHO2m2I?feature=shared
+- `consulta.txt`: Armazena os agendamentos realizados no formato:  
+  `nome,especialidade,data`
 
 ## Requisitos
 
@@ -36,11 +46,13 @@ https://youtu.be/6VLedHO2m2I?feature=shared
 ## Como Executar
 
 1. Certifique-se de ter o Python instalado.
-2. Clone ou baixe o repositório com o código-fonte.
-3. Execute o script principal.
+2. Salve o script Python em um arquivo `.py` e os arquivos `.txt` no mesmo diretório.
+3. Execute o script principal pelo terminal:  
+   `python nome_do_arquivo.py`
 
-4. ## Integrantes
-5. Pedro Estevam - RM 560642
-6. Arthur Gomes - RM 560771
-7. Luiz Gustavo - RM 560110
-8. Matheus Siroma - RM 560248
+## Integrantes
+
+- Pedro Estevam - RM 560642  
+- Arthur Gomes - RM 560771  
+- Luiz Gustavo - RM 560110  
+- Matheus Siroma - RM 560248
