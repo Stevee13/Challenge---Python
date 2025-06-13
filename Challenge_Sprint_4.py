@@ -8,16 +8,6 @@ def animação_menu(texto):
         print(f"{i}", end="", flush=True)
         time.sleep(0.2)
 
-def menu_principal():
-    print(f"""\n
-1 - Agendar Consulta
-2 - Exames
-3 - Informações do Paciente
-4 - Cancelar Consulta
-0 - Sair
-\n| Powered by TotemAI |
-    """)
-
 def validar_nome(msg):
     while True:
         nome = input(msg).strip()
@@ -167,7 +157,15 @@ while True:
     os.system('cls' if os.name == 'nt' else 'clear')
     print(boas_vindas)
     animação_menu(hospital_name)
-    menu_principal()
+    print(f"""\n
+        1 - Agendar Consulta
+        2 - Exames
+        3 - Informações do Paciente
+        4 - Cancelar Consulta
+        0 - Sair
+        \n| Powered by TotemAI |
+        """)
+    
 
     try:
         escolha = int(input("\nEscolha a ação desejada: "))
